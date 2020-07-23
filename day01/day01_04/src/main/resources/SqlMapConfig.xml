@@ -20,7 +20,10 @@
 
     <!-- 指定映射配置文件的位置，映射配置文件指的是每个dao独立的配置文件 -->
     <mappers>
-        <!--<mapper resource="com/itheima/dao/IUserDao.xml"/>-->
+        //使用的是xml
+<!--        <mapper resource="com/itheima/dao/IUserDao.xml"/>-->
+
+        //使用注解方式
         <mapper class="com.itheima.dao.IUserDao"/>
     </mappers>
 </configuration>

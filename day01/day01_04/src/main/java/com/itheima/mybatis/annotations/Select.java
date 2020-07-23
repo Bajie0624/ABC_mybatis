@@ -8,7 +8,9 @@ import java.lang.annotation.Target;
 /**
  * 查询的注解
  */
+//改变其生命周期
 @Retention(RetentionPolicy.RUNTIME)
+//改变其出现的位置
 @Target(ElementType.METHOD)
 public @interface Select {
 
