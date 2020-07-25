@@ -1,6 +1,7 @@
 package com.mybatis.test;
 
 import com.mybatis.dao.IUserDao;
+import com.mybatis.domain.QueryVo;
 import com.mybatis.domain.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -102,5 +103,27 @@ public class MybatisTest {
         List<User> users = userDao.findByName("%zhao%");
         System.out.println(users);
         sqlSession.commit();
+    }
+
+    //测试查询总记录条数
+    @Test
+    public void testFindTotal(){
+        int count = userDao.findTotal();
+        System.out.println(count);
+        sqlSession.commit();
+    }
+
+
+    //测试queryVo
+    @Test
+    public void testQueryVo(){
+        QueryVo vo = new QueryVo();
+        User user = new User();
+        user.setUsername("%王%");
+        vo.setUser(user);
+        List<User> users = userDao.findUserByVo(vo);
+        for (User u : users){
+            System.out.println(u);
+        }
     }
 }
