@@ -12,7 +12,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.io.InputStream;
-import java.util.Date;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -51,41 +51,9 @@ public class MybatisTest {
 
     }
 
-//    测试保存操作
-    @Test
-    public void testSave() {
-        User user = new User();
-        user.setUsername("ZhaoDongMei");
-        user.setAddress("Chengdu");
-        user.setSex("女");
-        user.setBirthday(new Date());
-        //使用保存方法
-        userDao.saveUser(user);
-        //提交事务
-        sqlSession.commit();
 
-    }
 
-    //测试更新操作
-    @Test
-    public void testUpdate(){
-        User user = new User();
-        user.setId(46);
-        user.setUsername("Zhou");
-        user.setAddress("Nanjing");
-        user.setSex("女");
-        user.setBirthday(new Date());
 
-        userDao.updateUser(user);
-    }
-
-    //测试删除操作
-    @Test
-    public void testDelete(){
-        //执行删除方法
-        userDao.deleteUser(46);
-        sqlSession.commit();
-    }
 
 
     //测试根据ID查询
@@ -105,13 +73,6 @@ public class MybatisTest {
         sqlSession.commit();
     }
 
-    //测试查询总记录条数
-    @Test
-    public void testFindTotal(){
-        int count = userDao.findTotal();
-        System.out.println(count);
-        sqlSession.commit();
-    }
 
 
     //测试queryVo
@@ -124,6 +85,33 @@ public class MybatisTest {
         List<User> users = userDao.findUserByVo(vo);
         for (User u : users){
             System.out.println(u);
+        }
+    }
+
+
+    //测试根据输入参数查询
+    @Test
+    public void findUserByCondition(){
+        User u = new User();
+        u.setUsername("老王");
+        List<User> users = userDao.findUserByCondition(u);
+        for (User user : users){
+            System.out.println(user);
+        }
+
+    }
+
+    //测试foreach标签
+    @Test
+    public void findUserInIds(){
+        QueryVo vo = new QueryVo();
+        List<Integer> list  = new ArrayList<Integer>();
+        list.add(41);
+        list.add(42);
+        vo.setIds(list);
+        List<User> users = userDao.findUserInIds(vo);
+        for (User user : users){
+            System.out.println(user);
         }
     }
 }
