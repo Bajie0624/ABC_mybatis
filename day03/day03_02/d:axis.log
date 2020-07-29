@@ -1,0 +1,727 @@
+2020-07-28 20:52:53,263 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-28 20:52:54,052 789    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-28 20:52:54,059 796    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-28 20:52:54,059 796    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-28 20:52:54,060 797    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-28 20:52:54,364 1101   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-28 20:52:55,073 1810   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 428566321.
+2020-07-28 20:52:55,074 1811   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@198b6731]
+2020-07-28 20:52:55,076 1813   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==>  Preparing: select * from account 
+2020-07-28 20:52:55,115 1852   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==> Parameters: 
+2020-07-28 20:52:55,150 1887   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - <==      Total: 0
+2020-07-28 20:52:55,154 1891   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@198b6731]
+2020-07-28 20:52:55,155 1892   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@198b6731]
+2020-07-28 20:52:55,155 1892   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 428566321 to pool.
+2020-07-28 21:36:49,791 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-28 21:36:50,138 347    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-28 21:36:50,138 347    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-28 21:36:50,138 347    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-28 21:36:50,139 348    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-28 21:36:50,324 533    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-28 21:36:51,042 1251   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 428566321.
+2020-07-28 21:36:51,042 1251   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@198b6731]
+2020-07-28 21:36:51,045 1254   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==>  Preparing: select * from account 
+2020-07-28 21:36:51,084 1293   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==> Parameters: 
+2020-07-28 21:36:51,141 1350   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - <==      Total: 3
+2020-07-28 21:36:51,146 1355   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@198b6731]
+2020-07-28 21:36:51,149 1358   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@198b6731]
+2020-07-28 21:36:51,149 1358   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 428566321 to pool.
+2020-07-29 21:00:57,570 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 21:00:58,097 527    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:00:58,097 527    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:00:58,098 528    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:00:58,098 528    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:00:58,585 1015   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 21:00:59,971 2401   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 428566321.
+2020-07-29 21:00:59,972 2402   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@198b6731]
+2020-07-29 21:00:59,975 2405   [           main] DEBUG dao.IAccountDao.findAllAccount  - ==>  Preparing: search a.*,u.address,u.username from account a, user u where u.id = a.id 
+2020-07-29 21:01:00,043 2473   [           main] DEBUG dao.IAccountDao.findAllAccount  - ==> Parameters: 
+2020-07-29 21:01:00,074 2504   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@198b6731]
+2020-07-29 21:01:00,075 2505   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@198b6731]
+2020-07-29 21:01:00,076 2506   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 428566321 to pool.
+2020-07-29 21:01:47,523 1      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 21:01:47,772 250    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:01:47,773 251    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:01:47,774 252    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:01:47,774 252    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:01:48,128 606    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 21:01:49,113 1591   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 428566321.
+2020-07-29 21:01:49,113 1591   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@198b6731]
+2020-07-29 21:01:49,118 1596   [           main] DEBUG dao.IAccountDao.findAllAccount  - ==>  Preparing: select a.*,u.address,u.username from account a, user u where u.id = a.id 
+2020-07-29 21:01:49,330 1808   [           main] DEBUG dao.IAccountDao.findAllAccount  - ==> Parameters: 
+2020-07-29 21:01:49,413 1891   [           main] DEBUG dao.IAccountDao.findAllAccount  - <==      Total: 0
+2020-07-29 21:01:49,419 1897   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@198b6731]
+2020-07-29 21:01:49,421 1899   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@198b6731]
+2020-07-29 21:01:49,422 1900   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 428566321 to pool.
+2020-07-29 21:21:03,853 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 21:21:04,130 277    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:21:04,130 277    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:21:04,130 277    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:21:04,130 277    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:23:02,632 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 21:23:02,908 276    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:23:02,910 278    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:23:02,911 279    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:23:02,912 280    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:23:03,142 510    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 21:23:04,088 1456   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 807752428.
+2020-07-29 21:23:04,089 1457   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:23:04,093 1461   [           main] DEBUG dao.IAccountDao.findAllAccount  - ==>  Preparing: select a.*,u.address,u.username from account a, user u where u.id = a.id 
+2020-07-29 21:23:04,159 1527   [           main] DEBUG dao.IAccountDao.findAllAccount  - ==> Parameters: 
+2020-07-29 21:23:04,213 1581   [           main] DEBUG dao.IAccountDao.findAllAccount  - <==      Total: 0
+2020-07-29 21:23:04,221 1589   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:23:04,237 1605   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:23:04,237 1605   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 807752428 to pool.
+2020-07-29 21:24:14,669 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 21:24:14,961 292    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:24:14,961 292    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:24:14,962 293    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:24:14,962 293    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:24:15,233 564    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 21:24:16,141 1472   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 807752428.
+2020-07-29 21:24:16,142 1473   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:24:16,145 1476   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==>  Preparing: select u.*,a.id as aid ,a.uid,a.money from account a,user u where u.id = a.uid 
+2020-07-29 21:24:16,247 1578   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==> Parameters: 
+2020-07-29 21:24:16,331 1662   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - <==      Total: 3
+2020-07-29 21:24:16,335 1666   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:24:16,336 1667   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:24:16,337 1668   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 807752428 to pool.
+2020-07-29 21:25:09,228 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 21:25:09,491 263    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:25:09,492 264    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:25:09,493 265    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:25:09,493 265    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:25:09,661 433    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 21:25:10,324 1096   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 807752428.
+2020-07-29 21:25:10,325 1097   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:25:10,327 1099   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==>  Preparing: select u.*,a.id as aid ,a.uid,a.money from account a,user u where u.id = a.uid 
+2020-07-29 21:25:10,365 1137   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==> Parameters: 
+2020-07-29 21:25:10,410 1182   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - <==      Total: 3
+2020-07-29 21:25:10,414 1186   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:25:10,415 1187   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:25:10,415 1187   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 807752428 to pool.
+2020-07-29 21:26:38,245 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 21:26:38,530 285    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:26:38,530 285    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:26:38,530 285    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:26:38,530 285    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:26:53,526 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 21:26:53,884 358    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:26:53,884 358    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:26:53,884 358    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:26:53,885 359    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:28:44,464 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 21:28:44,742 278    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:28:44,742 278    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:28:44,742 278    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:28:44,743 279    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:28:44,937 473    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 21:28:45,589 1125   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 807752428.
+2020-07-29 21:28:45,590 1126   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:28:45,592 1128   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==>  Preparing: select u.*,a.id as aid ,a.uid,a.money from account a,user u where u.id = a.uid 
+2020-07-29 21:28:45,633 1169   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==> Parameters: 
+2020-07-29 21:28:45,693 1229   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - <==      Total: 3
+2020-07-29 21:28:45,703 1239   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:28:45,704 1240   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:28:45,704 1240   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 807752428 to pool.
+2020-07-29 21:37:50,711 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 21:37:51,084 373    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:37:51,088 377    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:37:51,091 380    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:37:51,093 382    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:37:51,383 672    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 21:37:52,392 1681   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 807752428.
+2020-07-29 21:37:52,393 1682   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:37:52,395 1684   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==>  Preparing: select u.*,a.id as aid ,a.uid,a.money from account a,user u where u.id = a.uid 
+2020-07-29 21:37:52,477 1766   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==> Parameters: 
+2020-07-29 21:37:52,543 1832   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - <==      Total: 3
+2020-07-29 21:37:52,548 1837   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:37:52,549 1838   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:37:52,549 1838   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 807752428 to pool.
+2020-07-29 21:37:54,710 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 21:37:55,070 360    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:37:55,071 361    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:37:55,071 361    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:37:55,071 361    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:48:00,538 1      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 21:48:00,783 246    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:48:00,783 246    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:48:00,783 246    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:48:00,783 246    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:48:13,130 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 21:48:13,390 260    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:48:13,391 261    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:48:13,391 261    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:48:13,392 262    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:49:12,155 1      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 21:49:12,396 242    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:49:12,396 242    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:49:12,397 243    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:49:12,397 243    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:49:12,631 477    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 21:49:13,566 1412   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 807752428.
+2020-07-29 21:49:13,567 1413   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:49:13,570 1416   [           main] DEBUG dao.IAccountDao.findAllAccount  - ==>  Preparing: select a.*,u.address,u.username from account a, user u where u.id = a.id 
+2020-07-29 21:49:13,647 1493   [           main] DEBUG dao.IAccountDao.findAllAccount  - ==> Parameters: 
+2020-07-29 21:49:13,788 1634   [           main] DEBUG dao.IAccountDao.findAllAccount  - <==      Total: 0
+2020-07-29 21:49:13,796 1642   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:49:13,797 1643   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:49:13,799 1645   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 807752428 to pool.
+2020-07-29 21:49:27,981 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 21:49:28,235 254    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:49:28,237 256    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:49:28,238 257    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:49:28,238 257    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:49:28,397 416    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 21:49:29,186 1205   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 807752428.
+2020-07-29 21:49:29,186 1205   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:49:29,190 1209   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==>  Preparing: select u.*,a.id as aid ,a.uid,a.money from account a,user u where u.id = a.uid 
+2020-07-29 21:49:29,269 1288   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==> Parameters: 
+2020-07-29 21:49:29,344 1363   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:49:29,346 1365   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@302552ec]
+2020-07-29 21:49:29,347 1366   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 807752428 to pool.
+2020-07-29 21:50:13,906 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 21:50:14,155 249    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:50:14,156 250    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:50:14,156 250    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:50:14,156 250    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:51:18,695 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 21:51:19,068 373    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:51:19,068 373    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:51:19,069 374    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:51:19,069 374    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:51:19,323 628    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 21:51:20,127 1432   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1026055550.
+2020-07-29 21:51:20,129 1434   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d285d7e]
+2020-07-29 21:51:20,132 1437   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==>  Preparing: select u.*,a.id as aid ,a.uid,a.money from account a,user u where u.id = a.uid 
+2020-07-29 21:51:20,213 1518   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==> Parameters: 
+2020-07-29 21:51:20,271 1576   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d285d7e]
+2020-07-29 21:51:20,272 1577   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d285d7e]
+2020-07-29 21:51:20,272 1577   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1026055550 to pool.
+2020-07-29 21:54:59,493 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 21:54:59,797 304    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:54:59,797 304    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:54:59,798 305    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 21:54:59,798 305    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:00:12,514 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 22:00:12,880 366    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:00:12,881 367    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:00:12,881 367    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:00:12,882 368    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:00:13,114 600    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 22:00:13,924 1410   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1026055550.
+2020-07-29 22:00:13,925 1411   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d285d7e]
+2020-07-29 22:00:13,929 1415   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==>  Preparing: select u.*,a.id as aid ,a.uid,a.money from account a,user u where u.id = a.uid 
+2020-07-29 22:00:13,980 1466   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==> Parameters: 
+2020-07-29 22:00:14,049 1535   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d285d7e]
+2020-07-29 22:00:14,051 1537   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d285d7e]
+2020-07-29 22:00:14,051 1537   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1026055550 to pool.
+2020-07-29 22:00:33,818 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 22:00:34,159 341    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:00:34,160 342    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:00:34,160 342    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:00:34,160 342    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:03:46,421 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 22:03:46,741 320    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:03:46,741 320    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:03:46,742 321    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:03:46,742 321    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:03:46,904 483    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 22:03:47,571 1150   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1026055550.
+2020-07-29 22:03:47,571 1150   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d285d7e]
+2020-07-29 22:03:47,573 1152   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==>  Preparing: select u.*,a.id as aid ,a.uid,a.money from account a,user u where u.id = a.uid 
+2020-07-29 22:03:47,617 1196   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==> Parameters: 
+2020-07-29 22:03:47,661 1240   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d285d7e]
+2020-07-29 22:03:47,662 1241   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d285d7e]
+2020-07-29 22:03:47,663 1242   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1026055550 to pool.
+2020-07-29 22:05:04,200 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 22:05:04,611 411    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:05:04,611 411    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:05:04,611 411    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:05:04,612 412    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:39:03,938 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 22:39:04,127 189    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-07-29 22:39:04,127 189    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-07-29 22:39:04,128 190    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-07-29 22:39:04,128 190    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-07-29 22:39:04,129 191    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-07-29 22:39:04,130 192    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:39:04,130 192    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:39:04,269 331    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Account.class
+2020-07-29 22:39:04,269 331    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountUser.class
+2020-07-29 22:39:04,269 331    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-07-29 22:39:04,270 332    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:39:04,270 332    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:39:04,270 332    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:39:04,275 337    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 I
+2020-07-29 22:39:04,277 339    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:39:04,277 339    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:39:04,278 340    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 /
+2020-07-29 22:39:04,279 341    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:39:04,279 341    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:39:04,280 342    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 \
+2020-07-29 22:39:04,280 342    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.Account matches criteria [is assignable to Object]
+2020-07-29 22:39:04,281 343    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.AccountUser matches criteria [is assignable to Object]
+2020-07-29 22:39:04,282 344    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.User matches criteria [is assignable to Object]
+2020-07-29 22:39:04,434 496    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:39:04,434 496    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:39:04,434 496    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:39:04,434 496    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:39:13,347 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 22:39:13,472 125    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-07-29 22:39:13,473 126    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-07-29 22:39:13,474 127    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-07-29 22:39:13,474 127    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-07-29 22:39:13,475 128    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-07-29 22:39:13,476 129    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:39:13,476 129    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:39:13,552 205    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Account.class
+2020-07-29 22:39:13,553 206    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountUser.class
+2020-07-29 22:39:13,553 206    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-07-29 22:39:13,557 210    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:39:13,557 210    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:39:13,559 212    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:39:13,564 217    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 I
+2020-07-29 22:39:13,565 218    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:39:13,565 218    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:39:13,566 219    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 /
+2020-07-29 22:39:13,566 219    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:39:13,566 219    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:39:13,567 220    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 \
+2020-07-29 22:39:13,568 221    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.Account matches criteria [is assignable to Object]
+2020-07-29 22:39:13,569 222    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.AccountUser matches criteria [is assignable to Object]
+2020-07-29 22:39:13,571 224    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.User matches criteria [is assignable to Object]
+2020-07-29 22:39:13,742 395    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:39:13,742 395    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:39:13,742 395    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:39:13,742 395    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:44:12,647 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 22:44:12,848 201    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-07-29 22:44:12,849 202    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-07-29 22:44:12,850 203    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-07-29 22:44:12,851 204    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-07-29 22:44:12,852 205    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-07-29 22:44:12,852 205    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:44:12,853 206    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:44:13,000 353    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Account.class
+2020-07-29 22:44:13,001 354    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountUser.class
+2020-07-29 22:44:13,002 355    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-07-29 22:44:13,003 356    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:44:13,003 356    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:44:13,003 356    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:44:13,005 358    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 I
+2020-07-29 22:44:13,008 361    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:44:13,008 361    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:44:13,009 362    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 /
+2020-07-29 22:44:13,010 363    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:44:13,010 363    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:44:13,024 377    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 \
+2020-07-29 22:44:13,028 381    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.Account matches criteria [is assignable to Object]
+2020-07-29 22:44:13,029 382    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.AccountUser matches criteria [is assignable to Object]
+2020-07-29 22:44:13,030 383    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.User matches criteria [is assignable to Object]
+2020-07-29 22:44:13,356 709    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:44:13,357 710    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:44:13,360 713    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:44:13,361 714    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:45:28,767 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 22:45:28,895 128    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-07-29 22:45:28,895 128    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-07-29 22:45:28,896 129    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-07-29 22:45:28,897 130    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-07-29 22:45:28,898 131    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-07-29 22:45:28,899 132    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:45:28,899 132    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:45:29,022 255    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Account.class
+2020-07-29 22:45:29,033 266    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountUser.class
+2020-07-29 22:45:29,034 267    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-07-29 22:45:29,034 267    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:45:29,035 268    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:45:29,035 268    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:45:29,036 269    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 I
+2020-07-29 22:45:29,037 270    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:45:29,037 270    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:45:29,042 275    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 /
+2020-07-29 22:45:29,051 284    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:45:29,053 286    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:45:29,060 293    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 \
+2020-07-29 22:45:29,064 297    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.Account matches criteria [is assignable to Object]
+2020-07-29 22:45:29,067 300    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.AccountUser matches criteria [is assignable to Object]
+2020-07-29 22:45:29,068 301    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.User matches criteria [is assignable to Object]
+2020-07-29 22:45:29,308 541    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:45:29,310 543    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:45:29,311 544    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:45:29,311 544    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:45:29,337 570    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:45:29,343 576    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:45:29,348 581    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-07-29 22:45:29,348 581    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-07-29 22:45:29,348 581    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-07-29 22:45:29,349 582    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-07-29 22:45:29,349 582    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:45:29,350 583    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.class
+2020-07-29 22:45:29,350 583    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.class
+2020-07-29 22:45:29,350 583    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-07-29 22:45:29,351 584    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.xml
+2020-07-29 22:45:29,352 585    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.xml
+2020-07-29 22:45:29,353 586    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-07-29 22:45:29,359 592    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.class
+2020-07-29 22:45:29,359 592    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.class
+2020-07-29 22:45:29,360 593    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-07-29 22:45:29,360 593    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.xml
+2020-07-29 22:45:29,361 594    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.xml
+2020-07-29 22:45:29,361 594    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-07-29 22:45:29,361 594    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.dao.IAccountDao matches criteria [is assignable to Object]
+2020-07-29 22:45:29,362 595    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.dao.IUserDao matches criteria [is assignable to Object]
+2020-07-29 22:45:29,501 734    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 22:45:30,120 1353   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1414506856.
+2020-07-29 22:45:30,120 1353   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@544fa968]
+2020-07-29 22:45:30,128 1361   [           main] DEBUG .mybatis.dao.IUserDao.findById  - ==>  Preparing: select * from user where id = ? 
+2020-07-29 22:45:30,172 1405   [           main] DEBUG .mybatis.dao.IUserDao.findById  - ==> Parameters: 52(Integer)
+2020-07-29 22:45:30,212 1445   [           main] DEBUG .mybatis.dao.IUserDao.findById  - <==      Total: 0
+2020-07-29 22:45:30,216 1449   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@544fa968]
+2020-07-29 22:45:30,217 1450   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@544fa968]
+2020-07-29 22:45:30,217 1450   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1414506856 to pool.
+2020-07-29 22:45:56,718 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 22:45:56,851 133    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-07-29 22:45:56,851 133    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-07-29 22:45:56,852 134    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-07-29 22:45:56,854 136    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-07-29 22:45:56,855 137    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-07-29 22:45:56,857 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:45:56,857 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:45:56,994 276    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Account.class
+2020-07-29 22:45:56,994 276    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountUser.class
+2020-07-29 22:45:57,009 291    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-07-29 22:45:57,009 291    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:45:57,016 298    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:45:57,017 299    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:45:57,026 308    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 I
+2020-07-29 22:45:57,027 309    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:45:57,028 310    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:45:57,029 311    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 /
+2020-07-29 22:45:57,032 314    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:45:57,034 316    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:45:57,035 317    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 \
+2020-07-29 22:45:57,036 318    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.Account matches criteria [is assignable to Object]
+2020-07-29 22:45:57,038 320    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.AccountUser matches criteria [is assignable to Object]
+2020-07-29 22:45:57,039 321    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.User matches criteria [is assignable to Object]
+2020-07-29 22:45:57,312 594    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:45:57,314 596    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:45:57,316 598    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:45:57,321 603    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:45:57,327 609    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:45:57,329 611    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:45:57,333 615    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-07-29 22:45:57,335 617    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-07-29 22:45:57,336 618    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-07-29 22:45:57,337 619    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-07-29 22:45:57,337 619    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:45:57,338 620    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.class
+2020-07-29 22:45:57,338 620    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.class
+2020-07-29 22:45:57,338 620    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-07-29 22:45:57,339 621    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.xml
+2020-07-29 22:45:57,339 621    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.xml
+2020-07-29 22:45:57,340 622    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-07-29 22:45:57,341 623    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.class
+2020-07-29 22:45:57,341 623    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.class
+2020-07-29 22:45:57,341 623    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-07-29 22:45:57,342 624    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.xml
+2020-07-29 22:45:57,342 624    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.xml
+2020-07-29 22:45:57,343 625    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-07-29 22:45:57,343 625    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.dao.IAccountDao matches criteria [is assignable to Object]
+2020-07-29 22:45:57,344 626    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.dao.IUserDao matches criteria [is assignable to Object]
+2020-07-29 22:45:57,669 951    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 22:45:58,642 1924   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 262457445.
+2020-07-29 22:45:58,642 1924   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@fa4c865]
+2020-07-29 22:45:58,646 1928   [           main] DEBUG m.mybatis.dao.IUserDao.findAll  - ==>  Preparing: select * from user u left outer join account a on u.id = a.uid 
+2020-07-29 22:45:58,772 2054   [           main] DEBUG m.mybatis.dao.IUserDao.findAll  - ==> Parameters: 
+2020-07-29 22:45:58,844 2126   [           main] DEBUG m.mybatis.dao.IUserDao.findAll  - <==      Total: 7
+2020-07-29 22:45:58,850 2132   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@fa4c865]
+2020-07-29 22:45:58,856 2138   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@fa4c865]
+2020-07-29 22:45:58,857 2139   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 262457445 to pool.
+2020-07-29 22:46:12,511 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 22:46:12,641 130    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-07-29 22:46:12,641 130    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-07-29 22:46:12,642 131    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-07-29 22:46:12,643 132    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-07-29 22:46:12,644 133    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-07-29 22:46:12,644 133    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:46:12,644 133    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:46:12,738 227    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Account.class
+2020-07-29 22:46:12,742 231    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountUser.class
+2020-07-29 22:46:12,743 232    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-07-29 22:46:12,744 233    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:46:12,744 233    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:46:12,744 233    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:46:12,748 237    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 I
+2020-07-29 22:46:12,751 240    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:46:12,752 241    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:46:12,754 243    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 /
+2020-07-29 22:46:12,754 243    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:46:12,754 243    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:46:12,755 244    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 \
+2020-07-29 22:46:12,756 245    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.Account matches criteria [is assignable to Object]
+2020-07-29 22:46:12,760 249    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.AccountUser matches criteria [is assignable to Object]
+2020-07-29 22:46:12,762 251    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.User matches criteria [is assignable to Object]
+2020-07-29 22:46:12,932 421    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:46:12,933 422    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:46:12,933 422    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:46:12,933 422    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:46:12,938 427    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:46:12,940 429    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:46:12,954 443    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-07-29 22:46:12,956 445    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-07-29 22:46:12,956 445    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-07-29 22:46:12,957 446    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-07-29 22:46:12,958 447    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:46:12,958 447    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.class
+2020-07-29 22:46:12,958 447    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.class
+2020-07-29 22:46:12,959 448    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-07-29 22:46:12,959 448    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.xml
+2020-07-29 22:46:12,960 449    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.xml
+2020-07-29 22:46:12,960 449    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-07-29 22:46:12,961 450    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.class
+2020-07-29 22:46:12,961 450    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.class
+2020-07-29 22:46:12,964 453    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-07-29 22:46:12,965 454    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.xml
+2020-07-29 22:46:12,966 455    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.xml
+2020-07-29 22:46:12,967 456    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-07-29 22:46:12,967 456    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.dao.IAccountDao matches criteria [is assignable to Object]
+2020-07-29 22:46:12,968 457    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.dao.IUserDao matches criteria [is assignable to Object]
+2020-07-29 22:46:13,305 794    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 22:46:14,315 1804   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 262457445.
+2020-07-29 22:46:14,315 1804   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@fa4c865]
+2020-07-29 22:46:14,324 1813   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==>  Preparing: select u.*,a.id as aid ,a.uid,a.money from account a,user u where u.id = a.uid 
+2020-07-29 22:46:14,447 1936   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==> Parameters: 
+2020-07-29 22:46:14,500 1989   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@fa4c865]
+2020-07-29 22:46:14,501 1990   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@fa4c865]
+2020-07-29 22:46:14,502 1991   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 262457445 to pool.
+2020-07-29 22:52:25,640 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 22:52:25,766 126    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-07-29 22:52:25,767 127    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-07-29 22:52:25,768 128    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-07-29 22:52:25,769 129    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-07-29 22:52:25,770 130    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-07-29 22:52:25,770 130    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:52:25,771 131    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:52:25,875 235    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Account.class
+2020-07-29 22:52:25,877 237    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountUser.class
+2020-07-29 22:52:25,878 238    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-07-29 22:52:25,878 238    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:52:25,879 239    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:52:25,879 239    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:52:25,881 241    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 I
+2020-07-29 22:52:25,883 243    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:52:25,884 244    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:52:25,885 245    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 /
+2020-07-29 22:52:25,885 245    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:52:25,885 245    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:52:25,890 250    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 \
+2020-07-29 22:52:25,892 252    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.Account matches criteria [is assignable to Object]
+2020-07-29 22:52:25,893 253    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.AccountUser matches criteria [is assignable to Object]
+2020-07-29 22:52:25,893 253    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.User matches criteria [is assignable to Object]
+2020-07-29 22:52:26,050 410    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:52:26,050 410    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:52:26,050 410    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:52:26,051 411    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:52:26,054 414    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:52:26,054 414    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:52:26,056 416    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-07-29 22:52:26,056 416    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-07-29 22:52:26,056 416    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-07-29 22:52:26,057 417    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-07-29 22:52:26,057 417    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:52:26,058 418    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.class
+2020-07-29 22:52:26,058 418    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.class
+2020-07-29 22:52:26,058 418    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-07-29 22:52:26,059 419    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.xml
+2020-07-29 22:52:26,059 419    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.xml
+2020-07-29 22:52:26,059 419    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-07-29 22:52:26,060 420    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.class
+2020-07-29 22:52:26,060 420    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.class
+2020-07-29 22:52:26,061 421    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-07-29 22:52:26,061 421    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.xml
+2020-07-29 22:52:26,061 421    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.xml
+2020-07-29 22:52:26,061 421    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-07-29 22:52:26,062 422    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.dao.IAccountDao matches criteria [is assignable to Object]
+2020-07-29 22:52:26,062 422    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.dao.IUserDao matches criteria [is assignable to Object]
+2020-07-29 22:52:26,272 632    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 22:52:26,846 1206   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 262457445.
+2020-07-29 22:52:26,846 1206   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@fa4c865]
+2020-07-29 22:52:26,849 1209   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==>  Preparing: select u.*,a.id as aid ,a.uid,a.money from account a,user u where u.id = a.uid 
+2020-07-29 22:52:26,887 1247   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==> Parameters: 
+2020-07-29 22:52:26,933 1293   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@fa4c865]
+2020-07-29 22:52:26,935 1295   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@fa4c865]
+2020-07-29 22:52:26,936 1296   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 262457445 to pool.
+2020-07-29 22:53:09,170 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 22:53:09,310 140    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-07-29 22:53:09,310 140    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-07-29 22:53:09,311 141    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-07-29 22:53:09,312 142    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-07-29 22:53:09,313 143    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-07-29 22:53:09,313 143    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:53:09,314 144    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:53:09,419 249    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Account.class
+2020-07-29 22:53:09,420 250    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountUser.class
+2020-07-29 22:53:09,423 253    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-07-29 22:53:09,426 256    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:53:09,426 256    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:53:09,427 257    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:53:09,430 260    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 I
+2020-07-29 22:53:09,432 262    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:53:09,434 264    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:53:09,435 265    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 /
+2020-07-29 22:53:09,435 265    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:53:09,435 265    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:53:09,436 266    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 \
+2020-07-29 22:53:09,437 267    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.Account matches criteria [is assignable to Object]
+2020-07-29 22:53:09,437 267    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.AccountUser matches criteria [is assignable to Object]
+2020-07-29 22:53:09,440 270    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.User matches criteria [is assignable to Object]
+2020-07-29 22:53:09,605 435    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:53:09,605 435    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:53:09,605 435    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:53:09,605 435    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:53:09,610 440    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:53:09,610 440    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:53:09,611 441    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-07-29 22:53:09,612 442    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-07-29 22:53:09,612 442    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-07-29 22:53:09,613 443    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-07-29 22:53:09,613 443    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:53:09,613 443    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.class
+2020-07-29 22:53:09,613 443    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.class
+2020-07-29 22:53:09,613 443    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-07-29 22:53:09,614 444    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.xml
+2020-07-29 22:53:09,614 444    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.xml
+2020-07-29 22:53:09,614 444    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-07-29 22:53:09,615 445    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.class
+2020-07-29 22:53:09,616 446    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.class
+2020-07-29 22:53:09,616 446    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-07-29 22:53:09,616 446    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.xml
+2020-07-29 22:53:09,616 446    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.xml
+2020-07-29 22:53:09,617 447    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-07-29 22:53:09,617 447    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.dao.IAccountDao matches criteria [is assignable to Object]
+2020-07-29 22:53:09,618 448    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.dao.IUserDao matches criteria [is assignable to Object]
+2020-07-29 22:53:09,868 698    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 22:53:10,772 1602   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 262457445.
+2020-07-29 22:53:10,772 1602   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@fa4c865]
+2020-07-29 22:53:10,781 1611   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==>  Preparing: select u.*,a.id as aid,a.uid,a.money from account a , user u where u.id = a.uid; 
+2020-07-29 22:53:10,955 1785   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==> Parameters: 
+2020-07-29 22:53:11,055 1885   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@fa4c865]
+2020-07-29 22:53:11,056 1886   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@fa4c865]
+2020-07-29 22:53:11,057 1887   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 262457445 to pool.
+2020-07-29 22:55:12,512 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 22:55:12,638 126    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-07-29 22:55:12,638 126    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-07-29 22:55:12,639 127    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-07-29 22:55:12,640 128    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-07-29 22:55:12,641 129    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-07-29 22:55:12,642 130    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:55:12,642 130    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:55:12,731 219    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Account.class
+2020-07-29 22:55:12,733 221    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountUser.class
+2020-07-29 22:55:12,736 224    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-07-29 22:55:12,737 225    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:55:12,737 225    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:55:12,737 225    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:55:12,738 226    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 I
+2020-07-29 22:55:12,739 227    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:55:12,739 227    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:55:12,742 230    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 /
+2020-07-29 22:55:12,743 231    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:55:12,744 232    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:55:12,745 233    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 \
+2020-07-29 22:55:12,746 234    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.Account matches criteria [is assignable to Object]
+2020-07-29 22:55:12,747 235    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.AccountUser matches criteria [is assignable to Object]
+2020-07-29 22:55:12,748 236    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.User matches criteria [is assignable to Object]
+2020-07-29 22:55:12,908 396    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:55:12,908 396    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:55:12,908 396    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:55:12,908 396    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:55:12,912 400    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:55:12,913 401    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:55:12,914 402    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-07-29 22:55:12,914 402    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-07-29 22:55:12,915 403    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-07-29 22:55:12,915 403    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-07-29 22:55:12,915 403    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:55:12,916 404    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.class
+2020-07-29 22:55:12,916 404    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.class
+2020-07-29 22:55:12,918 406    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-07-29 22:55:12,918 406    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.xml
+2020-07-29 22:55:12,919 407    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.xml
+2020-07-29 22:55:12,919 407    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-07-29 22:55:12,919 407    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.class
+2020-07-29 22:55:12,920 408    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.class
+2020-07-29 22:55:12,920 408    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-07-29 22:55:12,921 409    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.xml
+2020-07-29 22:55:12,921 409    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.xml
+2020-07-29 22:55:12,921 409    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-07-29 22:55:12,922 410    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.dao.IAccountDao matches criteria [is assignable to Object]
+2020-07-29 22:55:12,923 411    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.dao.IUserDao matches criteria [is assignable to Object]
+2020-07-29 22:55:13,157 645    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 22:55:13,958 1446   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 262457445.
+2020-07-29 22:55:13,958 1446   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@fa4c865]
+2020-07-29 22:55:13,963 1451   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==>  Preparing: select u.*,a.id as aid,a.uid,a.money from account a , user u where u.id = a.uid; 
+2020-07-29 22:55:14,153 1641   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==> Parameters: 
+2020-07-29 22:55:14,239 1727   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@fa4c865]
+2020-07-29 22:55:14,240 1728   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@fa4c865]
+2020-07-29 22:55:14,241 1729   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 262457445 to pool.
+2020-07-29 22:56:16,103 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-29 22:56:16,284 181    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-07-29 22:56:16,284 181    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-07-29 22:56:16,284 181    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-07-29 22:56:16,285 182    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-07-29 22:56:16,287 184    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-07-29 22:56:16,287 184    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:56:16,288 185    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:56:16,446 343    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Account.class
+2020-07-29 22:56:16,446 343    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountUser.class
+2020-07-29 22:56:16,447 344    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-07-29 22:56:16,447 344    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain
+2020-07-29 22:56:16,447 344    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:56:16,448 345    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/Account.class
+2020-07-29 22:56:16,448 345    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 I
+2020-07-29 22:56:16,449 346    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:56:16,449 346    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/AccountUser.class
+2020-07-29 22:56:16,450 347    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 /
+2020-07-29 22:56:16,451 348    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:56:16,451 348    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/domain/User.class
+2020-07-29 22:56:16,452 349    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 \
+2020-07-29 22:56:16,453 350    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.Account matches criteria [is assignable to Object]
+2020-07-29 22:56:16,454 351    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.AccountUser matches criteria [is assignable to Object]
+2020-07-29 22:56:16,457 354    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.domain.User matches criteria [is assignable to Object]
+2020-07-29 22:56:16,612 509    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:56:16,612 509    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:56:16,612 509    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:56:16,612 509    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-07-29 22:56:16,616 513    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:56:16,616 513    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:56:16,617 514    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-07-29 22:56:16,618 515    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-07-29 22:56:16,618 515    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-07-29 22:56:16,619 516    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-07-29 22:56:16,619 516    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao
+2020-07-29 22:56:16,619 516    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.class
+2020-07-29 22:56:16,620 517    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.class
+2020-07-29 22:56:16,620 517    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-07-29 22:56:16,620 517    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.xml
+2020-07-29 22:56:16,621 518    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IAccountDao.xml
+2020-07-29 22:56:16,621 518    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-07-29 22:56:16,622 519    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.class
+2020-07-29 22:56:16,624 521    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.class
+2020-07-29 22:56:16,625 522    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-07-29 22:56:16,626 523    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.xml
+2020-07-29 22:56:16,626 523    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/zhangxuwei/Documents/GitWarehouse/mybatis/day03/day03_02/target/classes/com/mybatis/dao/IUserDao.xml
+2020-07-29 22:56:16,627 524    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-07-29 22:56:16,627 524    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.dao.IAccountDao matches criteria [is assignable to Object]
+2020-07-29 22:56:16,627 524    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.mybatis.dao.IUserDao matches criteria [is assignable to Object]
+2020-07-29 22:56:16,983 880    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-07-29 22:56:17,827 1724   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 262457445.
+2020-07-29 22:56:17,828 1725   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@fa4c865]
+2020-07-29 22:56:17,834 1731   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==>  Preparing: select u.*,a.id as aid,a.uid,a.money from account a , user u where u.id = a.uid; 
+2020-07-29 22:56:17,926 1823   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - ==> Parameters: 
+2020-07-29 22:56:17,985 1882   [           main] DEBUG ybatis.dao.IAccountDao.findAll  - <==      Total: 3
+2020-07-29 22:56:17,991 1888   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@fa4c865]
+2020-07-29 22:56:17,992 1889   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@fa4c865]
+2020-07-29 22:56:17,993 1890   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 262457445 to pool.
