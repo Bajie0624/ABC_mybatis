@@ -15,16 +15,15 @@ public class User implements Serializable {
     private Date birthday;
     private String sex;
     private String address;
-    //一对多关系映射，主表实体类中应该包含从表实体的引用集合
+    //多对多关系映射
+    private List<Role> roles;
 
-    private List<Account> accounts;
-
-    public List<Account> getAccounts() {
-        return accounts;
+    public List<Role> getRoles() {
+        return roles;
     }
 
-    public void setAccounts(List<Account> accounts) {
-        this.accounts = accounts;
+    public void setRoles(List<Role> roles) {
+        this.roles = roles;
     }
 
     public Integer getId() {
